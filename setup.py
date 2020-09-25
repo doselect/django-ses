@@ -124,6 +124,7 @@ CLASSIFIERS = [
     'Programming Language :: Python',
     'Topic :: Software Development :: Libraries :: Python Modules',
     'Framework :: Django',
+    'Framework :: Django :: 1.8',
     'Framework :: Django :: 1.11',
     'Framework :: Django :: 2.0',
     'Framework :: Django :: 2.1',
@@ -150,7 +151,7 @@ setup(
     long_description=LONG_DESCRIPTION,
     platforms=['any'],
     classifiers=CLASSIFIERS,
-    install_requires=["boto3>=1.0.0", "pytz>=2016.10", "future>=0.16.0", "django>1.10"],
+    install_requires=["boto3>=1.0.0", "pytz>=2016.10", "future>=0.16.0", "django>=1.8"],
     include_package_data=True,
     extras_require={
         'bounce': ['requests<3', 'M2Crypto'],
