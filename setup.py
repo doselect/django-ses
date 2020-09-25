@@ -151,7 +151,7 @@ setup(
     long_description=LONG_DESCRIPTION,
     platforms=['any'],
     classifiers=CLASSIFIERS,
-    install_requires=["boto3>=1.0.0", "pytz>=2016.10", "future>=0.16.0", "django>=1.8"],
+    install_requires=["boto3>=1.0.0", "pytz>=2015.7", "future>=0.16.0", "django>=1.8"],
     include_package_data=True,
     extras_require={
         'bounce': ['requests<3', 'M2Crypto'],
